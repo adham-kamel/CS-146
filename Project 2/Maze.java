@@ -2,11 +2,6 @@ package sjsu.kamel.cs146.project2;
 
 import java.util.*;
 
-/**
- * Maze.java
- * @authors Sebrianne Ferguson and Adham Kamel
- */
-
 public class Maze {
 
 	Coordinate[][] grid;
@@ -20,7 +15,6 @@ public class Maze {
 
 	/**
 	 * ctor for the class
-	 * @author Sebrianne Ferguson and Adham Kamel
 	 * @param size - the size of the grid
 	 */
 	public Maze(int size) {
@@ -35,7 +29,6 @@ public class Maze {
 
 	/**
 	 * myrandom() 
-	 * @author Sebrianne Ferguson
 	 * from instructions
 	 */
 	double myrandom() {
@@ -44,7 +37,6 @@ public class Maze {
 
 	/**
 	 * generateGrid() 
-	 * @author Sebrianne Ferguson
 	 * creates a 2D array of Coordinates and generates neighbors for each coordinate.
 	 */
 	public void generateGrid() {
@@ -66,7 +58,6 @@ public class Maze {
 	}
 
 	/**
-	 * @author Sebrianne Ferguson
 	 * generateNeighbors() 
 	 * generates all the neighboring coordinates to the
 	 * given coordinate
@@ -89,7 +80,6 @@ public class Maze {
 
 	/**
 	 * generateMaze() 
-	 * @author Sebrianne Ferguson
 	 * creates the maze as described in the instructions.
 	 */
 	public void generateMaze() {
@@ -146,7 +136,6 @@ public class Maze {
 
 	/**
 	 * displayMaze()
-	 * @author Sebrianne Ferguson 
 	 * displays a visual image of the maze
 	 */
 	public void displayMaze() {
@@ -239,7 +228,6 @@ public class Maze {
 	
 	/**
 	 * displayHashtag()
-	 * @author Sebrianne Ferguson 
 	 * displays a visual image of the maze with the hashtags instead of the numbers
 	 * version only for breadth first search
 	 */
@@ -342,7 +330,6 @@ public class Maze {
 	/**
 	 * Solves the maze in BFS
 	 * @param c
-	 * @author Adham Kamel and Sebrianne Ferguson
 	 */
 	public boolean solveMazeBFS(Coordinate c) {
 		Queue<Coordinate> toExplore = new LinkedList<>(); //create a queue for BFS
@@ -417,7 +404,6 @@ public class Maze {
 	/**
 	 * Solves the maze in DFS
 	 * @param c
-	 * @author Adham Kamel and Sebrianne Ferguson
 	 */
 	public boolean solveMazeDFS(Coordinate c) {
 		
@@ -442,7 +428,6 @@ public class Maze {
 	}
 	
 	/**
-	 * @author Adham Kamel
 	 * @return the start coordinate
 	 */
 	public Coordinate getStart(){

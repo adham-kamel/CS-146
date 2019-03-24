@@ -1,7 +1,6 @@
 package sjsu.kamel.cs146.project2;
 
 /**
- * @authors Sebrianne Ferguson and Adham Kamel
  * test class for the maze
  * still need to incorporate the seed and probably assert statements as well
  */
